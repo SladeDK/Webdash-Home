@@ -1,8 +1,8 @@
-# WebDash v1.1.0
+# WebDash-Home v1.1.0
 
 A self-hosted, configurable dashboard for organizing services, links, and systems in one place.  
 
-WebDash is designed to be simple, flexible, and fully under your control while still providing a polished, modern user experience. It runs locally with no external dependencies and works equally well on personal machines, homelabs, NAS devices, and VPS setups.
+WebDash-Home is designed to be simple, flexible, and fully under your control while still providing a polished, modern user experience. It runs locally with no external dependencies and works equally well on personal machines, homelabs, NAS devices, and VPS setups.
 
 The interface is desktop-first but fully responsive: the layout scales continuously from a phone in portrait to an ultrawide monitor, and every feature - including drag-and-drop reordering and the command palette - works on touch.
 
@@ -104,7 +104,7 @@ http://localhost:3000
 
 ## Configuration
 
-WebDash is configured using environment variables.
+WebDash-Home is configured using environment variables.
 
 Create a `.env` file:
 
@@ -125,7 +125,7 @@ cp .env.example .env
 
 ## Deployment Options
 
-WebDash is platform-agnostic and can be deployed on:
+WebDash-Home is platform-agnostic and can be deployed on:
 
 - Local machines
 - Home servers / NAS devices
@@ -151,7 +151,7 @@ Designed for simplicity while maintaining a structured and scalable architecture
 
 ## Security Notes
 
-- WebDash does **not include authentication** by default  
+- WebDash-Home does **not include authentication** by default  
 - Intended for **trusted or private networks**
 - If exposed to the internet, use a **reverse proxy with authentication**
 - User names are sanitized server-side and all user-provided text is escaped before rendering
@@ -161,7 +161,7 @@ Designed for simplicity while maintaining a structured and scalable architecture
 
 ## What's New in 1.1.0
 
-WebDash 1.1.0 makes the interface adapt to whatever it's opened on. WebDash
+WebDash-Home 1.1.0 makes the interface adapt to whatever it's opened on. WebDash-Home
 remains desktop-first - nothing about the desktop experience was traded away to
 get here - but phones, tablets and ultrawide monitors are now first-class.
 
@@ -194,7 +194,7 @@ Both the default and Classic UI stylesheets received all of the above.
 
 ## What's New in 1.0.0
 
-WebDash 1.0.0 is the first stable release, focused on performance and making
+WebDash-Home 1.0.0 is the first stable release, focused on performance and making
 the app truly self-contained.
 
 **Performance**
@@ -227,7 +227,7 @@ the app truly self-contained.
 
 ## Versioning
 
-WebDash follows a semantic-style versioning format:
+WebDash-Home follows a semantic-style versioning format:
 
 ```
 MAJOR.MINOR.PATCH
@@ -254,7 +254,7 @@ v1.0.0
 
 ## Project Status
 
-WebDash is stable and actively evolving.  
+WebDash-Home is stable and actively evolving.  
 The focus of development is on improving usability, performance, and extensibility while keeping the system lightweight and dependency-free.
 
 Bug reports and feature suggestions are welcome via GitHub Issues.
@@ -269,7 +269,7 @@ AI was used in the development of parts of this project.
 
 ## License
 
-WebDash is licensed under the  
+WebDash-Home is licensed under the  
 **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**
 
 You are free to:
